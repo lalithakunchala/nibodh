@@ -52,7 +52,7 @@ export class Carousel extends Component {
         </a>
       </div> */}
 
-        <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+        <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel" >
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to={0} className="active" />
           <li data-target="#carouselExampleCaptions" data-slide-to={1} />
@@ -62,21 +62,24 @@ export class Carousel extends Component {
           <div className="carousel-item active">
             <img src="https://raw.githubusercontent.com/Abhishek9608/Food-delivery-system/master/food-delivery-app/public/Image/hotel_banner.jpeg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5 style={{marginBottom:"250px"}}>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <img class="rounded-circle img-fluid icon bg-light float-left" style={{width:"100px",height:"100px", marginBottom:"300px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-fhoMKzx5yVIT2Dwe1UHrcefHpMrt2MyABjybsORWvjqD-FFR&usqp=CAU"></img>
+              <h1 style={{marginBottom:"250px", fontFamily:"Opensas"}}>Delicious & Yummy</h1>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRld165P7Ih_XOuxurQI9MtWMk2TV8s6TMDzg&usqp=CAU" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5 style={{marginBottom:"250px"}}>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img class="rounded-circle img-fluid icon bg-light float-left" style={{width:"100px",height:"100px", marginBottom:"300px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-fhoMKzx5yVIT2Dwe1UHrcefHpMrt2MyABjybsORWvjqD-FFR&usqp=CAU"></img>
+              <h1 style={{marginBottom:"250px", fontFamily:"Opensas"}}>Delicious & Yummy</h1>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src="https://raw.githubusercontent.com/Abhishek9608/Food-delivery-system/master/food-delivery-app/public/Image/hotel_banner.jpeg" className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5 style={{marginBottom:"250px"}}>Third slide label</h5>
+            <img class="rounded-circle img-fluid icon bg-light float-left" style={{width:"100px",height:"100px", marginBottom:"300px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-fhoMKzx5yVIT2Dwe1UHrcefHpMrt2MyABjybsORWvjqD-FFR&usqp=CAU"></img>
+              <h1 style={{marginBottom:"250px", fontFamily:"Opensas"}}>Delicious & Yummy</h1>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </div>
           </div>
