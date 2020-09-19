@@ -43,7 +43,8 @@ export default function Footer() {
 
         <div className='row text-white  '>
             <div className='col-2 offset-2'>
-                  <img src = '../logo.png' height='100px' alt='logo' />
+                
+            <img class="rounded-circle img-fluid icon bg-light" style={{width:"50px",height:"50px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-fhoMKzx5yVIT2Dwe1UHrcefHpMrt2MyABjybsORWvjqD-FFR&usqp=CAU"></img>
             </div>
             <div className='col-2 offset-1 mt-5' style={{fontSize:'20px'}}>
             © 2020 

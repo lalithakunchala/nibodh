@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import Footer from '../Footer/Footer';
 import Carousel from '../Carousel/Carousel';
+import Navbar from '../Navbar/Navbar';
 
 export class Home extends Component {
     render() {
         return (
             <div>
+                <Navbar />
                 <Carousel />
                 <Footer />
             </div>
