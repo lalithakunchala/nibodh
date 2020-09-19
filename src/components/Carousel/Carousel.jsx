@@ -22,7 +22,7 @@ export class Carousel extends Component {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRld165P7Ih_XOuxurQI9MtWMk2TV8s6TMDzg&usqp=CAU" className="d-block w-100" alt="..." />
+            <img src="backgroundImage.jpg" style={{opacity:0.75}} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h1 style={{marginBottom:"250px", fontFamily:"Opensas"}}>Delicious & Yummy</h1>
               <p>Specialist in Hyberabadi chicken Dum biryani.</p>

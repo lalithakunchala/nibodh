@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import Footer from '../Footer/Footer';
 import Carousel from '../Carousel/Carousel';
 import Navbar from '../Navbar/Navbar';
+import Products from '../Products/Products';
+import ContactUs from '../ContactUs/ContactUs'
 
 export class Home extends Component {
     render() {
@@ -10,6 +12,7 @@ export class Home extends Component {
             <div>
                 <Navbar />
                 <Carousel />
+                <Products />
                 <Footer />
             </div>
         )

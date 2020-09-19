@@ -7,13 +7,15 @@ export default function Footer() {
             <br/>
         <div className='row ' >
             <div className='col-2 offset-2'>
-                <p className='mb-3 text-secondary font-weight-bold'>COMPANY</p>
+                <h3 className='mb-3 text-secondary font-weight-bold'>DELICIOUS Restaurant</h3>
                  <p className='text-white'>About us</p>
                  <p className='text-white'>Team</p>
-                 <p className='text-white'>Carrers</p>
-                 <p className='text-white'>Bug Bounty</p>
-                 <p className='text-white'>Packed Super</p>
-                 <p className='text-white'>Packed Daily</p>
+                 <p className='text-white'>Careers</p>
+                 <div class=" justify-content-center  flex-wrap ">
+                    <p class="text-secondary"><i class=" fas fa-map-marker-alt text-secondary"></i> Hyderabad, India.</p>
+                    <p class="text-secondary"><i  class="fas fa-phone-alt text-secondary "></i> 91-9542882852, 404- 2587419</p>
+                    <p class="text-secondary"><i class="fas fa-envelope text-secondary"></i> deliciousfood@gmail.com</p>
+                </div>
             </div>
             <div className='col-2 '>
                 <p className='mb-3 text-secondary font-weight-bold'>CONTACT</p>

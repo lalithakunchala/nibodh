@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import { Navbar, Nav, NavDropdown, Button, NavbarBrand, } from 'react-bootstrap';
-import styles from "./Navbar.module.css"
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import styles from "./Navbar.module.css";
+import ContactUs from '../ContactUs/ContactUs'
 
 
 const NavBarHome = () => {
@@ -31,7 +32,7 @@ const NavBarHome = () => {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                       </NavDropdown>
-                      <button type="button" className="btn btn-outline-dark font-weight-bold"  style={{fontSize:".70em",}}>CONTACT US</button>
+                      <ContactUs />
                     </Nav>
                   </Navbar.Collapse>
                 </Navbar>
