@@ -1,8 +1,11 @@
 import axios from "axios";
-import {FETCH_REQUEST} from './actionTypes'
+import {FETCHITEM} from './actionTypes'
 
-const logout = ()=>{
+const fetchItem = (res)=>{
   return {
-    type: LOGOUT
+    type: FETCHITEM,
+    payload : res
   }
 }
+
+export {fetchItem}

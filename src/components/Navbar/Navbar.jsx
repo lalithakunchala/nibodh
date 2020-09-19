@@ -19,13 +19,13 @@ const NavBarHome = () => {
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                   <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto align-middle">
-                      <NavDropdown title="sign up" className="sec" id="collasible-nav-dropdown">
+                      <NavDropdown title="sign up" className="text-dark" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#registermodal" data-toggle="modal">Signup</NavDropdown.Item>
                       </NavDropdown>
-                      <NavDropdown title="log in" className="sec" id="collasible-nav-dropdown">
+                      <NavDropdown title="log in"  id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#loginmodal" data-toggle="modal" data-target="#loginmodal">Login</NavDropdown.Item>
                       </NavDropdown>
-                      <NavDropdown title="help" className="sec" id="collasible-nav-dropdown">
+                      <NavDropdown title="help" className="text-dark" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>

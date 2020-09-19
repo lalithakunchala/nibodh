@@ -5,7 +5,7 @@ export class ContactUs extends Component {
     render() {
         return (
             <div>
-                <button type="button" className="btn btn-outline-dark font-weight-bold mt-2"  style={{fontSize:".70em",}} data-toggle="modal" data-target="#exampleModal">
+                <button type="button" className="btn btn-outline-dark font-weight-bold mt-2"  style={{fontSize:"1em",}} data-toggle="modal" data-target="#exampleModal">
                 ContactUs
                 </button>
 

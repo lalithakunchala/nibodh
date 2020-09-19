@@ -1,27 +1,18 @@
-import {FETCH_REQUEST} from './actionTypes'
+import {FETCHITEM} from './actionTypes'
   
   const initStore = {
-    isLoading: false,
-    data: [],
-    error: "",
-    regError:"",
-    regSuccess:"",
-    logError:"",
-    logSuccess:"",
-    logUser:"",
-    userSuccess:"",
-    userError:"",
-    token : ""
+    product : ""
   };
   
   const reducer = (state = initStore, {type,payload}) => {
     console.log("reducer called");
     switch (type) {
       
-        case FETCH_REQUEST:
+        case FETCHITEM:
         console.log("reducer request called");
         return {
-          ...state
+          ...state,
+          product:payload
           
         };
 

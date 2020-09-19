@@ -2342,5 +2342,218 @@
                             }
 
                 ]
+    },
+    {
+        "id":5,
+        "image":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/mnzyub3njhh1bexqn638",
+        "name": "Biryani Zone",
+        "types":"South Indian, North Indian, Chinese",
+        "status":"Open",
+        "cost": "₹ 200",
+        "star" : "3.8",
+        "address":"Velachery",
+        "ratings" :"100+",
+        "city":"Chennai",
+        "items": [
+                            {
+                                "id":501,
+                                "itemName":"Chicken Dum Biryani",
+                                "itemPrice" : 255,
+                                "category" : "Biryani",
+                                "qty":0
+                            },
+                            {
+                                "id":502,
+                                "itemName":"Special Chicken Biryani",
+                                "itemPrice": 240,
+                                "category" : "Biryani",
+                                "qty":0
+                            },
+                            {
+                                "id":503,
+                                "itemName":"Mutton Biryani",
+                                "itemPrice": 300,
+                                "category" : "Biryani",
+                                "qty":0
+                            },
+                            {
+                                "id":504,
+                                "itemName":"Prawns Biryani",
+                                "itemPrice": 300,
+                                "category" : "Biryani",
+                                "qty":0
+                            },
+                            {
+                                "id":505,
+                                "itemName":"Veg Biryani",
+                                "itemPrice": 180,
+                                "category" : "Biryani",
+                                "qty":0
+                            },
+                            {
+                                "id":506,
+                                "itemName":"Paneer Biryani",
+                                "itemPrice": 200,
+                                "category" : "Biryani",
+                                "qty":0
+                            },
+                        
+                            {
+                                "id":507,
+                                "itemName":"Veg Family Pack",
+                                "itemPrice": 699,
+                                "category" : "FamilyPacks",
+                                "qty":0
+                            },
+                            {
+                                "id":508,
+                                "itemName":"Chicken Family Pack",
+                                "itemPrice": 780,
+                                "category" : "FamilyPacks",
+                                "qty":0
+                            },
+                            {
+                                "id":509,
+                                "itemName":"Chicken Dum Family Pack",
+                                "itemPrice": 850,
+                                "category" : "FamilyPacks",
+                                "qty":0
+                            },
+                            {
+                                "id":510,
+                                "itemName":"Special Family Pack",
+                                "itemPrice": 900,
+                                "category" : "FamilyPacks",
+                                "qty":0
+                            },
+                            {
+                                "id":511,
+                                "itemName":"Mutton Family Pack",
+                                "itemPrice": 1200,
+                                "category" : "FamilyPacks",
+                                "qty":0
+                            },
+                        
+                            {
+                                "id":512,
+                                "itemName":"Chicken 65",
+                                "itemPrice": 140,
+                                "category" : "Starters",
+                                "qty":0
+                            },
+                            {
+                                "id":513,
+                                "itemName":"Chilly Chicken",
+                                "itemPrice": 180,
+                                "category" : "Starters",
+                                "qty":0
+                            },
+                            {
+                                "id":514,
+                                "itemName":"Manchuria Dry",
+                                "itemPrice": 155,
+                                "category" : "Starters",
+                                "qty":0
+                            },
+                            {
+                                "id":515,
+                                "itemName":"Mutton Fry",
+                                "itemPrice": 200,
+                                "category" : "Starters",
+                                "qty":0
+                            },
+                            {
+                                "id":516,
+                                "itemName":"Prawns Fry",
+                                "itemPrice": 260,
+                                "category" : "Starters",
+                                "qty":0
+                            },
+                            {
+                                "id":517,
+                                "itemName":"Crispy Corn",
+                                "itemPrice": 190,
+                                "category" : "Starters",
+                                "qty":0
+                            },
+                            {
+                                "id":518,
+                                "itemName":"Pulka",
+                                "itemPrice": 35,
+                                "category" : "Breads",
+                                "qty":0
+                            },
+                            {
+                                "id":519,
+                                "itemName":"Butter Nan",
+                                "itemPrice": 50,
+                                "category" : "Breads",
+                                "qty":0
+                            },
+                            {
+                                "id":520,
+                                "itemName":"Garlic Nan",
+                                "itemPrice": 45,
+                                "category" : "Breads",
+                                "qty":0
+                            },
+                            {
+                                "id":521,
+                                "itemName":"Chapathi",
+                                "itemPrice": 30,
+                                "category" : "Breads",
+                                "qty":0
+                            },
+                            {
+                                "id":522,
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78,
+                                "category" : "Desserts",
+                                "qty":0
+                            },
+                            {
+                                "id":523,
+                                "itemName":"Strawberry Icecream",
+                                "itemPrice": 100,
+                                "category" : "Desserts",
+                                "qty":0
+                            },
+                            {
+                                "id":524,
+                                "itemName":"Butterscotch Icecream",
+                                "itemPrice": 120,
+                                "category" : "Desserts",
+                                "qty":0
+                            },
+                            {
+                                "id":525,
+                                "itemName":"Venila Icecream",
+                                "itemPrice": 78,
+                                "category" : "Desserts",
+                                "qty":0
+                            },
+                            {
+                                "id":526,
+                                "itemName":"Gulabjamun",
+                                "itemPrice": 60,
+                                "category" : "Desserts",
+                                "qty":0
+                            },
+                            {
+                                "id":527,
+                                "itemName":"Sweet Lime",
+                                "itemPrice": 30,
+                                "category" : "Desserts",
+                                "qty":0
+                            },
+                            {
+                                "id":528,
+                                "itemName":"Lassi",
+                                "itemPrice": 40,
+                                "category" : "Desserts",
+                                "qty":0
+                            }
+
+                ]
     }
 ]

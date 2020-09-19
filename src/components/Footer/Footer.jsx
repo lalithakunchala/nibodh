@@ -7,10 +7,8 @@ export default function Footer() {
             <br/>
         <div className='row ' >
             <div className='col-2 offset-2'>
-                <h3 className='mb-3 text-secondary font-weight-bold'>DELICIOUS Restaurant</h3>
-                 <p className='text-white'>About us</p>
-                 <p className='text-white'>Team</p>
-                 <p className='text-white'>Careers</p>
+                <h3 className='mb-3 text-light font-weight-bold'>DELICIOUS Restaurant</h3>
+                 <p className='text-white'></p>
                  <div class=" justify-content-center  flex-wrap ">
                     <p class="text-secondary"><i class=" fas fa-map-marker-alt text-secondary"></i> Hyderabad, India.</p>
                     <p class="text-secondary"><i  class="fas fa-phone-alt text-secondary "></i> 91-9542882852, 404- 2587419</p>
