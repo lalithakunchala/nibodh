@@ -7,12 +7,12 @@ export default function GoogleMap() {
         <div className="p-5 bg-secondary ">
             <div className="container-fluid" id="location">
                 <div className="row mb-5 ">
-                    <div className="col-6">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <h2 className="text-light">Location</h2>
                         <div style={{margin:"100px;"}}></div>
                         <img src="https://www.tutorialspoint.com/assets/questions/media/35694/map.jpg" alt="image"/>
                     </div>
-                    <div className="col-4">
+                    <div className="col-12  col-sm-12 col-md-12 col-lg-4">
                         <div className="row m-5">
                     
                         <h3 style={{width:"150px",margin:"auto"}} className="text-light" id="exampleModalLabel">Contact US</h3>

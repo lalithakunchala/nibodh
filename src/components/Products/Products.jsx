@@ -38,7 +38,7 @@ export class Products extends Component {
             <div class="container ">
                 <h3 class="text-center p-5">ORDER</h3>
                 <div class="row">
-                <div class="col-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                 <ul class="list-group mt-5">
                 <li class="list-group-item h4  p-4 bg-secondary text-light">FOOD ITEMS</li>
                     {
@@ -49,7 +49,7 @@ export class Products extends Component {
                 </ul>
                 
                 </div>
-                <div class="col-9">
+                <div class="col-9 col-sm-12 col-md-12 col-lg-9">
             <div class="row row-cols-1 row-cols-md-3 mt-5">
                 {data&&data.map(item=>(
                         <div key={item.id} class="col  mb-4">

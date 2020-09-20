@@ -6,7 +6,7 @@ export default function Footer() {
             <br/>
             <br/>
         <div className='row ' >
-            <div className='col-2 offset-2'>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-2'>
                 <h3 className='mb-3 text-light font-weight-bold'>DELICIOUS Restaurant</h3>
                  <p className='text-white'></p>
                  <div class=" justify-content-center  flex-wrap ">
@@ -15,14 +15,14 @@ export default function Footer() {
                     <p class="text-secondary"><i class="fas fa-envelope text-secondary"></i> deliciousfood@gmail.com</p>
                 </div>
             </div>
-            <div className='col-2 '>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-2 '>
                 <p className='mb-3 text-secondary font-weight-bold'>CONTACT</p>
                  <p className='text-white'>Help & Support</p>
                  <p className='text-white'>Partner with us</p>
                  <p className='text-white'>Ride with us</p>
 
             </div>
-            <div className='col-2'>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-2'>
                 <p className='mb-3 text-secondary font-weight-bold'>LEGAL</p>
                  <p className='text-white'>Terms & Conditions</p>
                  <p className='text-white'>Refund and Cancellation</p>
@@ -30,14 +30,7 @@ export default function Footer() {
                  <p className='text-white'>Cookie Policy</p>
                  <p className='text-white'>Offer Terms</p>
             </div>
-            <div className='col-2'>
-                 <div className='mb-3'>
-                     <img src='../appStore.png' width='200px' className='border-rounded' alt='app store'/>
-                 </div>
-                 <div className='mb-3'>
-                     <img src='../playStore.png'  width='200px' className='border-rounded' alt='play store'/>
-                 </div>
-            </div>
+            
         </div>
         <hr className='container' style={{border:'1px solid grey'}} />
 
