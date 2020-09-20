@@ -6,7 +6,8 @@ export default function Footer() {
             <br/>
             <br/>
         <div className='row ' >
-            <div className='col-12 col-sm-12 col-md-6 col-lg-2'>
+            <div className="col-2 col-sm-12 col-md-6  col-lg-2"></div>
+            <div className='col-12 col-sm-12 col-md-6  col-lg-2'>
                 <h3 className='mb-3 text-light font-weight-bold'>DELICIOUS Restaurant</h3>
                  <p className='text-white'></p>
                  <div class=" justify-content-center  flex-wrap ">
