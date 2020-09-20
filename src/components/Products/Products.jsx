@@ -13,9 +13,8 @@ export class Products extends Component {
         }
 
         handleItem = (e)=>{
-            this.setState({
-                product : e.target.value
-            },this.props.fetchItem(this.state.product))
+            console.log(e.target.id)
+            this.props.fetchItem(e.target.id)
         }
 
     render() {
@@ -35,16 +34,16 @@ export class Products extends Component {
         }
         console.log(cat);
         return (
-            <div class="bg-secondary">
+            <div class=" p-5 m-5">
             <div class="container ">
-                <h3 class="text-center text-light p-5">ORDER</h3>
+                <h3 class="text-center p-5">ORDER</h3>
                 <div class="row">
                 <div class="col-3">
                 <ul class="list-group mt-5">
-                <li class="list-group-item h4  p-4">FOOD ITEMS</li>
+                <li class="list-group-item h4  p-4 bg-secondary text-light">FOOD ITEMS</li>
                     {
                         cat.map((item,index)=>(
-                        <Link to="/productInfo"><li key={item.id} onClick={this.handleItem} class="list-group-item h5 font-weight-bold list-group-item-info p-4">{item}</li></Link>
+                        <Link to="/productInfo"><li key={index} id = {item} onClick={this.handleItem} class="list-group-item h5 font-weight-bold list-group-item-info p-4">{item}</li></Link>
                         ))
                     }
                 </ul>
@@ -53,8 +52,8 @@ export class Products extends Component {
                 <div class="col-9">
             <div class="row row-cols-1 row-cols-md-3 mt-5">
                 {data&&data.map(item=>(
-                        <div key={item.id} class="col mb-4">
-                        <div class="card">
+                        <div key={item.id} class="col  mb-4">
+                        <div class="card shadow">
                         <img  src={item.image} class="card-img-top" alt="..."/>
                         <div class="card-body">
                         <h5  class="card-title text-success">Price: {item.cost}</h5>

@@ -9,7 +9,7 @@ import {FETCHITEM} from './actionTypes'
     switch (type) {
       
         case FETCHITEM:
-        console.log("reducer request called");
+        console.log("reducer request called", payload);
         return {
           ...state,
           product:payload

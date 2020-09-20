@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer';
 import Carousel from '../Carousel/Carousel';
 import Navbar from '../Navbar/Navbar';
 import Products from '../Products/Products';
-import ContactUs from '../ContactUs/ContactUs'
+import GoogleMap from '../GoogleMap/GoogleMap'
 
 export class Home extends Component {
     render() {
@@ -13,6 +13,7 @@ export class Home extends Component {
                 <Navbar />
                 <Carousel />
                 <Products />
+                <GoogleMap />
                 <Footer />
             </div>
         )

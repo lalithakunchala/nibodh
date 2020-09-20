@@ -13,7 +13,7 @@ export class ContactUs extends Component {
                 <div class="modal-dialog ">
                     <div class="modal-content bg-secondary">
                     <div class="modal-header text-light">
-                        <h3 style={{width:"150px",margin:"auto"}}  id="exampleModalLabel">Contact US</h3>
+                        <h3 style={{width:"150px",margin:"auto"}} className="text-light" id="exampleModalLabel">Contact US</h3>
                     </div>
                     <div class="modal-body">
                     
